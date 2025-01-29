@@ -12,7 +12,7 @@ alvo específico. Você deve retornar os índices desses dois números.
 #define NUMERO_PROCURAR 9
 
 //Sequência de números
-int numeros[QUANTIDADE_NUMEROS] = {1, 5, 3, 8, 7, 10, 2};
+int numeros[QUANTIDADE_NUMEROS] = {1, 5, 3, 8, 7, 10, 2, 5, 7, 1};
 
 //Declaração de função
 int encontrarSomaNumeros(int *numeros, int numeroDesejado);
