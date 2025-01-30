@@ -1,37 +1,36 @@
 /*
-Valid Parentheses
-Dada uma string contendo apenas os caracteres '(', ')', '{', '}', '[' e ']', 
-determine se a entrada é válida. Uma entrada é válida se os parênteses forem 
-fechados na ordem correta.
+Search Insert Position
+Dada uma lista ordenada e um valor alvo, retorne o 
+índice onde o alvo deve ser inserido para manter a ordem.
 */
 
 #include <stdio.h>
 #include <string.h>
 
-//Declaração de constante
-#define QUANTIDADE_CARACTERES_ACEITOS 3
-
-//Declaração de caracteres aceitos
-char caracteresAbertura[QUANTIDADE_CARACTERES_ACEITOS] = {'(', '[', '{'};
-char caracteresFechamento[QUANTIDADE_CARACTERES_ACEITOS] = {')', ']', '}'};
+//Declaração de constantes
+#define QUANTIDADE_NUMEROS 7
 
 //Declaração da função
-int verificaStringValida(char *string);
+int retornaIndiceNumeroOrdem(int *numeros, int numeroEscolhido);
+
 
 int main() {
 
-    return 0;
 
+
+    return 0;
 }
 
 //Inicialização da função
-int verificaStringValida(char *string) {
-    int quantidadeCaracteres = strlen(string);
+int retornaIndiceNumeroOrdem(int *numeros, int numeroEscolhido) {
+    for (int i = 0; i < QUANTIDADE_NUMEROS; i++) {
+        int numero = numeros[i];
 
-    for (int i = 0; i < quantidadeCaracteres; i++) {
-        char caractere = string[i];
+
+
 
     }
+
 
 
 

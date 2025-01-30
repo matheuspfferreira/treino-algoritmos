@@ -23,3 +23,18 @@ O código tem como finalidade converter um número representado em algarismos ro
 3. Para cada caractere da string, busca-se o valor correspondente no conjunto predefinido de algarismos romanos.
 4. O valor encontrado é somado ao total para formar o número decimal.
 5. No `main`, um numeral romano de exemplo é convertido e o resultado é impresso na tela.
+
+---
+
+## Exercício 03: Palindrome Number
+
+### Intuito do Código
+O objetivo deste código é verificar se uma palavra é um palíndromo, ou seja, se ela é lida da mesma forma de trás para frente.
+
+### Passo a Passo da Resolução
+1. Definição de uma string contendo a palavra a ser verificada.
+2. Criação da função `verificaPalindromo`, que recebe a palavra e verifica se é um palíndromo.
+3. Dentro da função, a string é percorrida e sua versão invertida é armazenada em uma nova variável.
+4. A palavra original e a palavra invertida são comparadas usando `strcmp`.
+5. Se forem idênticas, a função retorna verdadeiro (`1`), indicando que a palavra é um palíndromo; caso contrário, retorna falso (`0`).
+6. No `main`, a função é chamada, e imprime-se uma mensagem informando se a palavra é ou não um palíndromo.
