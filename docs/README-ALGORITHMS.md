@@ -55,3 +55,20 @@ O objetivo deste código é determinar o índice onde um determinado número alv
 
 ### Observação
 O algoritmo atual percorre toda a lista sequencialmente para encontrar a posição ideal. Uma otimização possível seria utilizar busca binária para melhorar a eficiência, reduzindo o número de comparações em listas grandes.
+
+--- 
+
+## Exercício 05: Valid Anagram
+
+### Intuito do Código
+O objetivo deste código é determinar se duas palavras são anagramas, ou seja, se possuem os mesmos caracteres, apenas reorganizados em uma ordem diferente.
+
+### Passo a Passo da Resolução
+1. Definição de duas strings contendo as palavras a serem comparadas.
+2. Criação da função `ordenarPalavra`, que ordena os caracteres das palavras em ordem alfabética.
+3. Utilização da função `verificaPalavrasAnagramas`, que compara as palavras ordenadas para verificar se são idênticas.
+4. No `main`, as duas palavras são ordenadas antes de serem comparadas.
+5. Se forem iguais após a ordenação, o programa exibe a mensagem informando que são anagramas; caso contrário, indica que não são anagramas.
+
+### Observação
+O algoritmo de ordenação utilizado na função `ordenarPalavra` é um método de ordenação simples baseado em comparação de caracteres. Para otimizar a performance, seria possível substituir por um algoritmo mais eficiente, como QuickSort ou MergeSort.
